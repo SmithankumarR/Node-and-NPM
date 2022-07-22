@@ -1,0 +1,24 @@
+{
+  "name": "node-and-npm",
+  "version": "1.0.0",
+  "description": "partice basic stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmithankumarR/Node-and-NPM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmithankumarR/Node-and-NPM/issues"
+  },
+  "homepage": "https://github.com/SmithankumarR/Node-and-NPM#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "parcel-bundler": "^1.3.1"
+  }
+}
