@@ -1,8 +1,12 @@
-const moment = require ("moment");
-const lodash = require ("lodash");
+const moment = require('moment');
+
 console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 console.log(moment().format('dddd'));   
-console.log(moment().format("MMM Do YY"));   
+console.log(moment().format("MMM Do YY")); 
+console.log(moment().format("MMM DDDD YY"));   
+console.log(moment().isValid("2020-01-01"));
+console.log(moment().isValid("2020-14-01"));
+
 console.log(moment().add(7, 'days').calendar() );
 console.log(moment().add(7, 'months').calendar() );
 console.log(moment().add(7, 'years').calendar() );
@@ -20,11 +24,11 @@ if(moment("2019", "YYYY") % 4 == 0) {
 let arr = [2,1,3,4,5,6,7,8,9,10,];
 let odd = ["a", "b", "c", "d"];
 
-console.log(lodash.filter(arr,(i) => arr[i] % 2 == 0 ));
-console.log(lodash.map(arr,(i) => arr[i] % 2 !== 0 ));
-console.log(lodash.includes("a",1));
-console.log(lodash.chunk(odd,2));
-console.log(lodash.forEach(arr,(i) => console.log(arr[i])));
+console.log(filter(arr,(i) => arr[i] % 2 == 0 ));
+console.log(map(arr,(i) => arr[i] % 2 !== 0 ));
+console.log(includes("a",1));
+console.log(chunk(odd,2));
+console.log(forEach(arr,(i) => console.log(arr[i])));
 
 
 
